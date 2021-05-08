@@ -10,7 +10,6 @@ antd
 In the future....
 More styling to come!
 There will be a Login Page.
-Will have a Navigation Page.
-Will add a Footer Page.
+There will be a functional Navigation and Footer also.
 
 

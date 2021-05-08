@@ -1,0 +1,20 @@
+/* AddTodo styles */
+
+
+.addTodo_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 50vh;
+    height: 100%;
+}
+
+.addTodo_input {
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.addTodo_btn {
+    padding: 1rem;
+}

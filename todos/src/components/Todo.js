@@ -1,15 +1,22 @@
 import React from "react";
 import PropTypes from "prop-types";
+import "./Todo.css";
 
 const Todo = ({ onClick, completed, text }) => (
-  <li
-    onClick={onClick}
-    style={{
-      textDecoration: completed ? "line-through" : "none",
-    }}
-  >
-    {text}
-  </li>
+  <div className="todo_container">
+    <li
+      onClick={onClick}
+      className="todo_li"
+      style={{
+        textDecoration: completed ? "line-through" : "none",
+      }}
+    >
+      <div className="todo_text">
+        {text}
+      </div>
+      
+    </li>
+  </div>
 );
 
 Todo.protoTypes = {

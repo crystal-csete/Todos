@@ -1,5 +1,5 @@
 import React from 'react'
-import Footer from './components/Footer'
+import Options from './components/Options'
 import AddTodo from './containers/AddTodo'
 import VisibleTodoList from './containers/VisibleTodoList'
 import UndoRedo from './containers/UndoRedo'
@@ -9,7 +9,7 @@ const App = () => (
   <div className="app_container">
     <AddTodo />
     <VisibleTodoList />
-    <Footer />
+    <Options />
     <UndoRedo />
   </div>
 )

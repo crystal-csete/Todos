@@ -1,26 +1,17 @@
-import React from "react";
-import "./App.css";
-import TodoForm from "./components/TodoForm";
-import Check from './svg/check.png';
-import Home from './svg/home.png';
-import Form from './svg/todo-form.png';
+import React from 'react'
+import Footer from './components/Footer'
+import AddTodo from './containers/AddTodo'
+import VisibleTodoList from './containers/VisibleTodoList'
+import UndoRedo from './containers/UndoRedo'
+import './App.css'
 
-const App = () => {
-  return (
-    <div className="container">
-      <nav className="nav-bar">
-        <ul>
-          <li><img src={Check} alt="" className="check-img" /></li>
-            <li><img src={Home} alt="" className="home-img" /></li>
-            <li><img src={Form} alt="" className="form-img" /></li>
-        </ul>
-      </nav>
+const App = () => (
+  <div className="app_container">
+    <AddTodo />
+    <VisibleTodoList />
+    <Footer />
+    <UndoRedo />
+  </div>
+)
 
-      <div className="App">
-        <TodoForm />
-      </div>
-    </div>
-  );
-};
-
-export default App;
+export default App

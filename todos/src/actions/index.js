@@ -1,16 +1,16 @@
-  
-export const SET_TITLE = "SET_TITLE";
-export const SET_EDITING = "SET_EDITING";
-export const SET_NEW_TITLE_TEXT = "SET_NEW_TITLE_TEXT";
+let nextTodoId = 0
+export const addTodo = (text) => ({
+  type: 'ADD_TODO',
+  id: nextTodoId++,
+  text
+})
 
-export const setTitle = (title) => {
-  return { type: SET_TITLE, payload: title };
-};
+export const setVisibilityFilter = (filter) => ({
+  type: 'SET_VISIBILITY_FILTER',
+  filter
+})
 
-export const setEditing = (willEdit) => {
-  return { type: SET_EDITING, payload: willEdit };
-};
-
-export const setNewTitleText = (titleText) => {
-  return { type: SET_NEW_TITLE_TEXT, payload: titleText };
-};
+export const toggleTodo = (id) => ({
+  type: 'TOGGLE_TODO',
+  id
+})

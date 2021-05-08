@@ -1,0 +1,11 @@
+/* Footer styles */
+
+.footer_container {
+    background-color: pink;
+    color: white;
+    min-height: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

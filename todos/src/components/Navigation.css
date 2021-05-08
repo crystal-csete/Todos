@@ -1,0 +1,13 @@
+/* Navigation styles */
+
+.ant-menu {
+    background-color: pink;
+    color: white;
+
+}
+
+li {
+    padding: 1rem;
+    cursor: pointer;
+}
+

@@ -1,0 +1,14 @@
+/* Todo styles */
+
+.todo_container {
+    background-color: rgba(100, 51, 51, 0.5);
+}
+
+.todo_li {
+    color: rgb(28, 32, 32);
+    padding: 2rem;
+    font-size: 1rem;
+    background-color: rgba(45,45,45,0.5);
+    margin: 1rem;
+}
+

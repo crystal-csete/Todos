@@ -1,0 +1,32 @@
+/* Footer styles */
+
+.options_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(231, 227, 221, 0.5);
+    padding: 2rem;
+    color: rgb(28, 32, 32);
+    padding: 1rem;
+    
+}
+
+a {
+    color: rgb(28, 32, 32);
+    margin: 1rem;
+    padding: 1rem;
+    text-decoration: none;
+    background-color: rgba(231, 227, 221, 0.5);
+
+}
+
+a:hover {
+    color: rgb(28, 32, 32);
+    margin: 1rem;
+    padding: 1rem;
+    text-decoration: none;
+    background-color: rgba(231, 227, 221, 0.5);
+
+}
+

@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './Navigation.css'
 import { Menu } from 'antd'
-import { SettingOutlined } from '@ant-design/icons'
+import { EditOutlined } from '@ant-design/icons'
 
 
 const Navigation = () => {
@@ -14,8 +14,8 @@ const Navigation = () => {
 
     return (
         <Menu onClick={handleClick} selectedKeys={[current]} mode="horizontal">
-            <Menu.Item key="setting" icon={<SettingOutlined />}>
-                NavigationOne
+            <Menu.Item key="setting" icon={<EditOutlined />}>
+                Todos
             </Menu.Item>
             
         </Menu>
